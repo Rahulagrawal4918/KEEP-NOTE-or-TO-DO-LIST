@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 
@@ -71,15 +72,6 @@ html {
     margin: 30px auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
     position: relative;
-
-
-
-
-
-
-
-
-
 }
 
 .input {
@@ -206,8 +198,8 @@ html {
    align-items: center;
 }
 .delAll{
-    padding: 10px 0;
-    width: 10%;
+    padding: 10px 3px;
+    width: 15%;
     border: red 2px solid;
     background-color: white;
     color : red;
@@ -222,3 +214,5 @@ html {
     background-color: red;
     color: white;
 }
+
+

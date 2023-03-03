@@ -105,7 +105,7 @@ export default function App() {
     }
   }
   const deleteAllNote = async () => {
-    const result = await confirm("Are you sure?  you want to delete all item" , options);
+    const result = await confirm("Are you sure?" , options);
     if (result) {
       setaddnotes([])
       setnotes({         // INPUT FIELD BLANK

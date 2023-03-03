@@ -30,7 +30,7 @@ export default function CreateNote(props) {
                 </form>
                 
             </div>
-            { (props.addnotes.length===1)?
+            { (props.addnotes.length>=1)?
             <div className="btn-div">
             <button className='delAll' title='Delete All' onClick={()=>{
                 props.passdeleteAllNote()
