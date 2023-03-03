@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+html {
+    font-weight: 300;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header {
+    background-color: #f1c40f;
+}
+
+.header-div {
+    display: flex;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.header-div h3 {
+    margin: auto 0;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+
+
+/* .footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    height: 50px;
+   margin-top: 25%;
+
+} */
+
+.footer {
+
+    position: absolute;
+
+    right: 0;
+    left: 0;
+    bottom: 0;
+    clear: both;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+
+
+}
+
+
+.ctreatebox {
+    width: 320px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 30px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    position: relative;
+
+
+
+
+
+
+
+
+
+}
+
+.input {
+    padding: 0 10px 10px 0;
+    align-items: left;
+
+
+
+}
+
+.title {
+    font-size: 30px;
+
+}
+
+.notes {
+    font-size: 21px;
+}
+
+.title,
+.notes {
+    width: 100%;
+    border: none;
+    padding: 15px;
+    outline: none;
+
+    border-radius: 5px;
+    margin-top: 0;
+
+}
+
+.notes {
+    padding-bottom: 40px;
+}
+
+.btn {
+    width: 46px;
+    height: 44px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    background-color: white;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 85%;
+    right: 0%;
+    cursor: pointer;
+    color: #f1c40f;
+}
+
+.symbol {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+.btn:hover,
+.remover:hover,
+.editbtn:hover {
+    background-color: #f1c40f;
+    color: white;
+}
+
+.boxnotes {
+    background-color: white;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+    width: 220px;
+    height: 160px;
+    border-radius: 10px;
+    padding: 35px 15px;
+    margin: 20px;
+    float: left;
+    overflow: auto;
+
+
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    position: relative;
+
+}
+
+.boxnotes h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.remover,
+.editbtn {
+    width: 40px;
+    height: 35px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    top: 76%;
+    right: 3%;
+    cursor: pointer;
+    color: #f1c40f;
+
+}
+
+.editbtn {
+    position: absolute;
+    top: 76%;
+    right: 28%;
+}
+
+
+.removesymbol {
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+
+} 
+
+.btn-div{
+   display: grid;
+   place-items: center;
+   align-items: center;
+}
+.delAll{
+    padding: 10px 0;
+    width: 10%;
+    border: red 2px solid;
+    background-color: white;
+    color : red;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+   
+}
+.delAll:hover{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    background-color: red;
+    color: white;
+}
