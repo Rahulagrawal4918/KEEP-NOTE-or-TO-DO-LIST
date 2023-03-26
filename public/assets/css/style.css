@@ -6,6 +6,10 @@
     box-sizing: border-box;
    
 }
+body{
+    max-height: 100vh;
+    overflow-x: hidden;
+}
 
 
 
@@ -36,32 +40,7 @@ html {
 
 
 
-/* .footer {
-    background-color: black;
-    color: white;
-    clear: both;
-    height: 50px;
-   margin-top: 25%;
 
-} */
-
-.footer {
-
-    position: absolute;
-
-    right: 0;
-    left: 0;
-    bottom: 0;
-    clear: both;
-    width: 100vw;
-    background-color: black;
-    color: white;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
-
-
-}
 
 
 .ctreatebox {
@@ -146,7 +125,8 @@ html {
     padding: 35px 15px;
     margin: 20px;
     float: left;
-    overflow: auto;
+    word-wrap: break-word;
+    /* overflow: auto; */
 
 
 
@@ -159,6 +139,8 @@ html {
     font-size: 28px;
     margin-bottom: 10px;
     color: rgba(0, 0, 0, 0.6);
+
+    word-wrap: break-word;
 }
 
 .remover,
@@ -215,4 +197,36 @@ html {
     color: white;
 }
 
+@media only screen and (max-width:668px) {
+    .ctreatebox{
+        width: 250px;
+       padding: 10px;
+     }
+     .delAll{
+        padding: 5px 3px;
+        width: 30%;
+      }
+  
+    
+}
 
+@media only screen and (max-width:400px) {
+    .ctreatebox{
+        width: 90%;
+
+       padding: 10px;
+     }
+     .boxnotes {
+        width: 85%;
+        height: 180px;
+        padding: 25px 10px;
+        margin: 15px;
+       
+     }
+     .delAll{
+        padding: 5px 3px;
+        width: 35%;
+      }
+  
+    
+}

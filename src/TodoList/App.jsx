@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import CreateNote from './CreateNote';
-import Footer from './Footer';
 import Header from './Header';
 import Notes from './Notes';
 import { confirm } from "react-confirm-box";
@@ -127,6 +126,8 @@ export default function App() {
 
   return (
     <>
+    <div className="main">
+      <div className="main-content " style={{marginBottom:"100px"}}>
       <Header />
 
       {/* INPUT  FIELD AND ADD BTN COMPONENT*/}
@@ -156,8 +157,13 @@ export default function App() {
           />
           );
         })}
+        </div>
+        
 
-      <Footer />
+     <div className="footer-div" style={{marginTop:"100px"}}>
+    
+     </div>
+     </div>
     </>
 
   )
